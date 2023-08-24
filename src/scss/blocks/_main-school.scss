@@ -1,0 +1,30 @@
+.school {
+    &__container {
+        margin-bottom: 150px;
+        padding-top: 191px;
+        column-gap: 150px;
+    }
+
+    &__block {
+        width: 638px;
+        height: 405px;
+        position: relative;
+        border: 10px solid $accent;
+
+    }
+
+    &__title {   
+        position: absolute;
+        z-index: 9999;
+        top: -40px;
+        right: 50%;
+        left: 9%;
+        width: 414px;
+        padding: 0 30px;
+        background-color: $white;
+    }
+
+    &__text {
+        padding: 86px 90px 76px;
+    }
+}

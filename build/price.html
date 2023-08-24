@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+		<meta name="viewport" content="width=1540px, initial-scale=1.0">
+		<title>Стартовый шаблон</title>
+		<link rel="stylesheet" href="./css/main.css"/>
+	</head>
+
+	<body>
+		<header class="header">
+    
+    <div class="container">
+        <div class="flex-between">
+            <h6 class="header__title h6 accent">ШКОЛА ИСПАНСКОГО ЯЗЫКА<br>
+                «ЛАВИТА» В ПЕТЕРБУРГЕ</h6>
+            <ul class="header__adress-items flex-between">
+                <li class="header__adress-item text-sm">
+                    <a class="header__link flex-between" href="https://yandex.ru/maps/-/CCU7eSTtCB">
+                        <svg class="location-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 21C10.7369 19.9226 9.56619 18.7415 8.5 17.469C6.9 15.558 5 12.712 5 9.99997C4.99931 8.61493 5.40951 7.26082 6.17869 6.109C6.94788 4.95718 8.04147 4.05943 9.32107 3.52937C10.6007 2.99931 12.0087 2.86076 13.3671 3.13126C14.7255 3.40176 15.9731 4.06915 16.952 5.04897C17.6038 5.69783 18.1203 6.46951 18.4719 7.31934C18.8234 8.16918 19.0029 9.0803 19 9.99997C19 12.712 17.1 15.558 15.5 17.469C14.4338 18.7415 13.2631 19.9226 12 21ZM12 6.99997C11.2044 6.99997 10.4413 7.31604 9.87868 7.87865C9.31607 8.44126 9 9.20432 9 9.99997C9 10.7956 9.31607 11.5587 9.87868 12.1213C10.4413 12.6839 11.2044 13 12 13C12.7957 13 13.5587 12.6839 14.1213 12.1213C14.6839 11.5587 15 10.7956 15 9.99997C15 9.20432 14.6839 8.44126 14.1213 7.87865C13.5587 7.31604 12.7957 6.99997 12 6.99997Z"
+                                fill="#EC1B2E" />
+                        </svg>
+                        Лиговский пр. 133 Е
+                    </a>
+                <li class="header__adress-item text-sm"> <a class="header__link flex-between" href="tel:+79111234567">
+                        <svg class="phone-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.2477 16.11L16.9277 14.43C17.154 14.2066 17.4403 14.0536 17.7518 13.9897C18.0634 13.9258 18.3867 13.9537 18.6827 14.07L20.7302 14.8875C21.0293 15.0089 21.2858 15.2162 21.4673 15.4831C21.6488 15.75 21.7473 16.0647 21.7502 16.3875V20.1375C21.7485 20.3571 21.7023 20.5741 21.6145 20.7753C21.5267 20.9766 21.3991 21.158 21.2393 21.3087C21.0796 21.4594 20.891 21.5761 20.6849 21.652C20.4788 21.7278 20.2595 21.7612 20.0402 21.75C5.69272 20.8575 2.79772 8.70753 2.25022 4.05753C2.22481 3.82918 2.24803 3.59804 2.31836 3.37931C2.38869 3.16058 2.50453 2.95922 2.65827 2.78848C2.81201 2.61774 3.00016 2.48148 3.21034 2.38868C3.42052 2.29587 3.64797 2.24862 3.87772 2.25003H7.50022C7.82348 2.25099 8.13906 2.34863 8.40637 2.5304C8.67368 2.71217 8.8805 2.96976 9.00022 3.27003L9.81772 5.31753C9.93791 5.61233 9.96858 5.93601 9.90588 6.24814C9.84319 6.56027 9.68992 6.847 9.46522 7.07253L7.78522 8.75253C7.78522 8.75253 8.75272 15.3 15.2477 16.11Z"
+                                fill="#EC1B2E" />
+                        </svg>
+                        +7 (911) 123-45-67</a>
+                <li class="header__adress-item text-sm"><a class="header__link flex-between" href="mailto:lavita_school@gmail.com">
+                        <svg class="email-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 4.5C5.20435 4.5 4.44129 4.81607 3.87868 5.37868C3.31607 5.94129 3 6.70435 3 7.5V7.8015L12 12.648L21 7.803V7.5C21 6.70435 20.6839 5.94129 20.1213 5.37868C19.5587 4.81607 18.7956 4.5 18 4.5H6ZM21 9.5055L12.3555 14.16C12.2462 14.2188 12.1241 14.2496 12 14.2496C11.8759 14.2496 11.7538 14.2188 11.6445 14.16L3 9.5055V16.5C3 17.2956 3.31607 18.0587 3.87868 18.6213C4.44129 19.1839 5.20435 19.5 6 19.5H18C18.7956 19.5 19.5587 19.1839 20.1213 18.6213C20.6839 18.0587 21 17.2956 21 16.5V9.5055Z"
+                                fill="#EC1B2E" />
+                        </svg>
+                        lavita_school@gmail.com</a>
+            </ul>
+            <button id="open-modal-btn" class="header__button white button h6">Запись на курсы
+                <!-- <div class="nav-icon"></div> -->
+            </button>
+            
+            <div class="modal" id="my-modal">
+                <div class="modal__box">
+                    <button class="modal__close-btn" id="close-my-modal-btn">
+                        <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" fill="white"/>
+                            <path d="M7 17L16.8995 7.10051" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7 7.00001L16.8995 16.8995" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </button>
+                    <h3>Заполните форму</h3>
+                    <div class="form">
+    <form id="form" class="form__body">
+        <h3 class="form__title h3"></h3>
+        <div class="form__wrapper">
+            <div class="form__block flex-column">
+                <div class="form__item">
+                    <label class="form__label text-lg" for="formName">Имя*:</label>
+                    <input id="formName" type="text" name="name" class="form__input text-lg _req">
+                </div>
+                <div class="form__item">
+                    <label for="formEmail" class="form__label text-lg">E-mail*:</label>
+                    <input id="formEmail" type="text" name="email" class="form__input text-lg _req _email">
+                </div>
+                <div class="form__item">
+                    <div class="form__label text-lg">Выберите пол:</div>
+                    <div class="options flex">
+                        <div class="options__item">
+                            <input id="formRightHanded" checked type="radio" value="right" name="hand"
+                                class="options__input">
+                            <label for="formRightHanded" class="options__label text-md">Мужчина</label>
+                        </div>
+                        <div class="options__item">
+                            <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input">
+                            <label for="formLeftHanded" class="options__label text-md">Женшина</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__item">
+                    <div class="form__label text-lg">Курсы:</div>
+                    <select name="age" id="select-one" class="select-one text-md">
+                        <option value="0" disabled selected hidden>Выберите курс:
+                        <option value="ESP for children">Испанский язык для детей
+                        <option value="ESP">Испанский язык для взрослых
+                        <option value="Exam preparation">Подготовка к экзаменам
+                        <option value="Individual">Индивидуальные занятия
+                    </select>
+                </div>
+            </div>
+
+            <div class="form__block flex-column">
+
+                <div class="form__item">
+                    <label for="formMessage" class="form__label text-lg form__label--mb">Сообщение:</label>
+                    <textarea name="message" id="formMessage" class="form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <div class="form__label text-lg">Прикрепить фото</div>
+                    <div class="file">
+                        <div class="file__item">
+                            <input id="formImage" accept=".jpg, .png, .gif" type="file" name="image"
+                                class="file__input">
+                            <div class="file__button h6">Выбрать</div>
+                        </div>
+                        <div id="formPreview" class="file__preview"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form__item">
+            <div class="checkbox">
+                <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req">
+                <label for="formAgreement" class="checkbox__label text-lg"><span>Я даю свое согласие на обработку
+                        персональных данных в
+                        соответствии с <a href="">Условиями</a>*</span></label>
+            </div>
+        </div>
+        <button type="submit" class="form__button text-lg">Отправить</button>
+        <!-- onsubmit="return false" -->
+        <!-- <button type="button" class="form__button text-lg">Отправить</button> -->
+    </form>
+</div>	
+                    </div>
+            </div>
+        </div>
+        <hr class="header__hr hr">
+        <div class="flex-between">
+            <div class="header__logo">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M52.5037 5.50294C52.5037 5.00145 52.2237 4.46796 51.8237 4.20709C51.5333 4.01772 49.7667 4.0011 29.9897 4.0011C9.45805 4.0011 8.10852 3.95433 7.83806 4.47168C7.79648 4.5512 7.78041 4.64406 7.72408 4.75246C7.34838 5.47544 7.45754 5.78456 9.06568 8.5545C12.1593 13.8826 13.8168 16.7665 13.8168 16.8205C13.8168 16.851 10.9417 16.8758 7.42777 16.8758C1.13888 16.8758 1.03349 16.88 0.705284 17.1368C0.307361 17.4483 0 18.0017 0 18.4064C0 18.678 0.760173 20.0668 3.16479 24.1882C3.68619 25.0819 4.84541 27.0787 5.74087 28.6256C6.63632 30.1724 8.33164 33.0974 9.50832 35.1254C10.685 37.1535 13.0169 41.1753 14.6901 44.0628C16.3634 46.9502 17.9992 49.7626 18.3251 50.3126C18.651 50.8626 19.4701 52.2733 20.1451 53.4476C21.4696 55.7514 21.7083 56 22.5953 56C22.9809 56 23.1992 55.9149 23.4776 55.6563C23.6811 55.4671 24.9025 53.4844 26.1917 51.2501C29.7376 45.1051 29.9466 44.7502 30.0173 44.7506C30.0534 44.7509 30.3647 45.2431 30.7093 45.8443C34.2912 52.0957 36.2423 55.3701 36.5558 55.6563C36.8492 55.924 37.0564 56 37.4937 56C38.3106 56 38.6105 55.6608 40.1451 53.0001C41.6882 50.3246 43.0443 47.9845 47.6006 40.1342C49.4134 37.011 52.0559 32.4549 53.473 30.0094C54.8901 27.564 56.789 24.2975 57.6928 22.7507C60.1024 18.6263 60.1117 18.6067 59.9325 18.0113C59.8511 17.7407 59.6114 17.3744 59.4002 17.1976L59.0161 16.8758H52.6062C47.5297 16.8758 46.2092 16.8433 46.2574 16.7196C46.3163 16.5686 47.1387 15.1401 50.7862 8.85287C51.988 6.78129 52.5037 5.77531 52.5037 5.50294ZM20.6623 14.4761C19.9024 13.1597 19.1524 11.8392 18.9957 11.5417L18.7107 11.0009H30.0291H41.3476L40.9279 11.7324C40.6972 12.1348 39.943 13.4541 39.2522 14.6641L37.9961 16.8643L30.0201 16.8669L22.044 16.8697L20.6623 14.4761ZM12.0633 25.4381C11.7382 24.8882 11.4039 24.3107 11.3202 24.1549L11.168 23.8717L14.5767 23.9049L17.9854 23.9382L21.9356 30.7403C24.3814 34.9519 25.8573 37.6161 25.8111 37.736C25.7225 37.9656 22.7344 43.1404 22.6025 43.2926C22.5524 43.3504 22.203 42.8723 21.826 42.2302C20.6304 40.1942 17.951 35.5864 15.2597 30.938C13.8267 28.4631 12.3884 25.9881 12.0633 25.4381ZM30.0414 30.4232C29.9642 30.4692 26.4988 24.5943 26.3084 24.0944C26.2301 23.8891 26.4577 23.8757 30.0201 23.8757C33.2408 23.8757 33.8049 23.9024 33.7469 24.0525C33.7094 24.1499 33.0153 25.3733 32.2045 26.7712C31.3937 28.1692 30.5943 29.5516 30.4279 29.8432C30.2616 30.1347 30.0876 30.3957 30.0414 30.4232ZM38.6199 29.8131C40.328 26.8569 41.8061 24.3117 41.9047 24.1569C42.0834 23.8768 42.0973 23.8757 45.4232 23.8757C48.535 23.8757 48.7567 23.8904 48.6791 24.0915C48.6019 24.2918 47.6405 25.9654 44.2076 31.8755C43.4689 33.1474 41.6931 36.2129 40.2613 38.6879C38.8296 41.1628 37.6148 43.2335 37.5616 43.2895C37.4654 43.3909 34.1651 37.8608 34.1651 37.598C34.1651 37.5219 34.4687 36.9485 34.8397 36.3238C35.2108 35.6991 36.9119 32.7692 38.6199 29.8131Z"
+                        fill="#EC1B2E" />
+                </svg>
+            </div>
+            <nav class="nav">
+                <ul class="header__nav-items flex-between">
+                    <li class="header__nav-item h6"><a class="header__link" href="../index.html">О НАС</a>
+                    <li class="header__nav-item h6"><a class="header__link" href="../price.html">РАСПИСАНИЕ И ОПЛАТА</a>
+                    <li class="header__nav-item h6" disabled><a class="header__link disabled" href="#!">МЕРОПРИЯТИЯ</a>
+                    <li class="header__nav-item h6"><a class="header__link" href="../exam.html">ЭКЗАМЕНЫ</a>
+                    <li class="header__nav-item h6" disabled><a class="header__link disabled" href="#!">ОБУЧЕНИЕ В ИСПАНИИ</a>
+                    <li class="header__nav-item h6" disabled><a class="header__link disabled" href="#!">НОВОСТИ</a>
+                    <li class="header__nav-item h6" disabled><a class="header__link disabled" href="#!">ФОТОГРАЛЕРЕЯ</a>
+                    <li class="header__nav-item h6"><a class="header__link" href="../contacts.html">КОНТАКТЫ</a>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+</header>
+
+        <div class="container">
+    <ul class="path-title">
+        <li class="path__item text-sm"><a class="path-link" href="../index.html">Главная</a>
+        <li class="rectangle">
+        <li class="path__item text-sm"><a class="path__link" href="../price.html">Расписание и оплата</a>
+    </ul>
+    <div class="wrapper">
+        <img class="price__img" width="1076px" height="500px" src="/img/price/price-img.png" alt="price_auditory">
+
+        <h1 class="price__h1 h1">Расписание и оплата</h1>
+        <div class="price-first__section flex-between">
+            <div class="price-text__block">
+                <h2 class="price__h4 h4">Ut pellentesque ultricies.</h2>
+                <div class="price__text-item">
+                    <p class="price__text text-md">Amet ac sed sed tempus id nec odio. Morbi eget rhoncus venenatis,
+                        venenatis
+                        imperdiet. Commodo, varius fermentum lectus ut nec ut et pulvinar. Neque sed cras amet sit nulla
+                        euismod in montes, commodo. Euismod tincidunt risus nec lacinia ornare elementum. Duis eget
+                        tellus
+                        id hac sed nullam. Vitae porttitor egestas rhoncus ut euismod viverra quis.</p>
+                    <p class="price__text text-md"> Enim ut commodo dui vitae vehicula et elementum. Vel ornare pretium
+                        proin ipsum. Sollicitudin ornare
+                        pellentesque scelerisque risus felis, at turpis. At leo metus risus enim, dignissim nisl velit
+                        amet
+                        lorem. Nisi, faucibus ipsum, faucibus posuere nunc augue. Nulla sed maecenas commodo arcu
+                        vulputate
+                        ullamcorper consequat. Mattis consequat, dui, viverra urna faucibus varius platea consequat
+                        adipiscing. Suspendisse ac ipsum quam scelerisque consectetur. Malesuada platea risus ut dictum
+                        tincidunt augue aliquet. Tortor mauris urna nunc at dignissim. Orci aenean ipsum viverra
+                        adipiscing
+                        molestie vestibulum sapien. Gravida elit sed mauris etiam non sit dictum velit. Curabitur
+                        condimentum nulla turpis semper.</p>
+                    <p class="price__text text-md">
+                        Dui malesuada in in scelerisque tristique nisl. Augue felis, lacinia aliquet est rhoncus, nisi,
+                        mus
+                        cras
+                        adipiscing. Tincidunt ullamcorper feugiat dolor nisl duis nunc. Mattis turpis elit blandit fames
+                        ac
+                        massa netus in. Neque, in malesuada sed lectus vitae magnis ullamcorper. Libero neque amet in
+                        amet,
+                        ipsum accumsan viverra aenean. Nec, tincidunt quam magna at diam bibendum lorem. A nisl, tellus
+                        vel
+                        praesent.
+                    </p>
+                    <p class="price__text text-md">
+                        Morbi curabitur neque imperdiet massa pellentesque ut eget nunc. Pretium orci a tempor eu sit
+                        proin.
+                        Neque platea vestibulum integer lectus posuere senectus. Enim dictum pretium urna sit vel
+                        bibendum
+                        arcu
+                        varius tellus. Et, lobortis ullamcorper nam amet sed nec lobortis.
+                    </p>
+                    <p class="price__text text-md">
+                        Nam orci id luctus egestas ultrices nisl. Volutpat quis fringilla potenti leo dictum vitae
+                        magna.
+                        Eget
+                        tellus purus adipiscing nullam. Fusce odio tincidunt maecenas egestas lobortis vitae.
+                    </p>
+                </div>
+                <div class="price__text-item">
+                    <p class="price__text title-1 price__text--border">
+                        Enim arcu orci, orci porta pharetra blandit semper. Mauris vitae in orci potenti eget ipsum
+                        imperdiet. Tortor, in vel morbi nunc. Egestas massa aliquam et rhoncus. Varius cras vel in
+                        suspendisse. Iaculis risus libero quam pretium nec, purus senectus nec. Orci habitasse in ac a.
+                        Etiam nec vestibulum ut feugiat.
+                    </p>
+                </div>
+                <div class="price__text-item">
+                    <p class="price__text text-md">
+                        Proin etiam nulla varius urna urna interdum quam. Interdum arcu neque ac est nunc. Justo eu
+                        maecenas scelerisque ut tempus. Aenean nec, viverra quis quis nisl viverra amet sit urna. Vitae
+                        lacus eu pulvinar lectus quam a. Nullam hac gravida ornare sed diam rhoncus.
+                    </p>
+                    <p class="price__text text-md">
+                        Orci suspendisse facilisis vulputate malesuada sed eros gravida malesuada adipiscing.
+                    </p>
+                </div>
+            </div>
+            <div class="price-logo__block">
+                <svg class="big-logo" width="60" height="60" viewBox="0 0 60 60" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M52.5037 5.50294C52.5037 5.00145 52.2237 4.46796 51.8237 4.20709C51.5333 4.01772 49.7667 4.0011 29.9897 4.0011C9.45805 4.0011 8.10852 3.95433 7.83806 4.47168C7.79648 4.5512 7.78041 4.64406 7.72408 4.75246C7.34838 5.47544 7.45754 5.78456 9.06568 8.5545C12.1593 13.8826 13.8168 16.7665 13.8168 16.8205C13.8168 16.851 10.9417 16.8758 7.42777 16.8758C1.13888 16.8758 1.03349 16.88 0.705284 17.1368C0.307361 17.4483 0 18.0017 0 18.4064C0 18.678 0.760173 20.0668 3.16479 24.1882C3.68619 25.0819 4.84541 27.0787 5.74087 28.6256C6.63632 30.1724 8.33164 33.0974 9.50832 35.1254C10.685 37.1535 13.0169 41.1753 14.6901 44.0628C16.3634 46.9502 17.9992 49.7626 18.3251 50.3126C18.651 50.8626 19.4701 52.2733 20.1451 53.4476C21.4696 55.7514 21.7083 56 22.5953 56C22.9809 56 23.1992 55.9149 23.4776 55.6563C23.6811 55.4671 24.9025 53.4844 26.1917 51.2501C29.7376 45.1051 29.9466 44.7502 30.0173 44.7506C30.0534 44.7509 30.3647 45.2431 30.7093 45.8443C34.2912 52.0957 36.2423 55.3701 36.5558 55.6563C36.8492 55.924 37.0564 56 37.4937 56C38.3106 56 38.6105 55.6608 40.1451 53.0001C41.6882 50.3246 43.0443 47.9845 47.6006 40.1342C49.4134 37.011 52.0559 32.4549 53.473 30.0094C54.8901 27.564 56.789 24.2975 57.6928 22.7507C60.1024 18.6263 60.1117 18.6067 59.9325 18.0113C59.8511 17.7407 59.6114 17.3744 59.4002 17.1976L59.0161 16.8758H52.6062C47.5297 16.8758 46.2092 16.8433 46.2574 16.7196C46.3163 16.5686 47.1387 15.1401 50.7862 8.85287C51.988 6.78129 52.5037 5.77531 52.5037 5.50294ZM20.6623 14.4761C19.9024 13.1597 19.1524 11.8392 18.9957 11.5417L18.7107 11.0009H30.0291H41.3476L40.9279 11.7324C40.6972 12.1348 39.943 13.4541 39.2522 14.6641L37.9961 16.8643L30.0201 16.8669L22.044 16.8697L20.6623 14.4761ZM12.0633 25.4381C11.7382 24.8882 11.4039 24.3107 11.3202 24.1549L11.168 23.8717L14.5767 23.9049L17.9854 23.9382L21.9356 30.7403C24.3814 34.9519 25.8573 37.6161 25.8111 37.736C25.7225 37.9656 22.7344 43.1404 22.6025 43.2926C22.5524 43.3504 22.203 42.8723 21.826 42.2302C20.6304 40.1942 17.951 35.5864 15.2597 30.938C13.8267 28.4631 12.3884 25.9881 12.0633 25.4381ZM30.0414 30.4232C29.9642 30.4692 26.4988 24.5943 26.3084 24.0944C26.2301 23.8891 26.4577 23.8757 30.0201 23.8757C33.2408 23.8757 33.8049 23.9024 33.7469 24.0525C33.7094 24.1499 33.0153 25.3733 32.2045 26.7712C31.3937 28.1692 30.5943 29.5516 30.4279 29.8432C30.2616 30.1347 30.0876 30.3957 30.0414 30.4232ZM38.6199 29.8131C40.328 26.8569 41.8061 24.3117 41.9047 24.1569C42.0834 23.8768 42.0973 23.8757 45.4232 23.8757C48.535 23.8757 48.7567 23.8904 48.6791 24.0915C48.6019 24.2918 47.6405 25.9654 44.2076 31.8755C43.4689 33.1474 41.6931 36.2129 40.2613 38.6879C38.8296 41.1628 37.6148 43.2335 37.5616 43.2895C37.4654 43.3909 34.1651 37.8608 34.1651 37.598C34.1651 37.5219 34.4687 36.9485 34.8397 36.3238C35.2108 35.6991 36.9119 32.7692 38.6199 29.8131Z"
+                        fill="#EC1B2E" />
+                </svg>
+            </div>
+        </div>
+        <div class="price-second__section flex-between">
+            <div class="price-text__block">
+                <h2 class="price__h4 h4">Dis id urna praesent est.</h2>
+                <div class="price__text-item">
+                    <p class="price__text text-md"> Cursus ut vestibulum lacus sed aenean hac placerat senectus mi.
+                        Tincidunt nunc nunc egestas tincidunt pulvinar porttitor dictum faucibus risus. Nunc id
+                        elementum id nunc viverra. A, nisi, viverra nec blandit massa. Sed id justo, phasellus aliquam
+                        ante. Vulputate quis vestibulum ut at at eleifend diam id. Gravida nullam turpis sit blandit
+                        laoreet porta vestibulum sit. Dui, nisl volutpat quis nulla blandit.</p>
+                    <p class="price__text text-md">Ut maecenas quis sapien, nullam. Ac turpis nisi, magna nam. Turpis
+                        aliquam donec id quis mauris, risus quis aliquam. Diam ornare et morbi purus commodo. Pulvinar
+                        libero sit a metus, cursus sapien vestibulum. Ut pellentesque tristique malesuada ornare feugiat
+                        a. Aenean diam orci amet, magna tristique at a quis fermentum. Eleifend nibh ultricies metus,
+                        amet neque, nullam sed. Vulputate pellentesque at nunc egestas purus.</p>
+                    <p class="price__text text-md">Ut tellus lobortis dui in. Massa sodales felis in pulvinar dignissim
+                        cursus et sapien egestas. Sodales tellus gravida mauris id phasellus elementum ut. Non, non odio
+                        vel habitant. Pellentesque mattis scelerisque sollicitudin proin laoreet arcu malesuada luctus
+                        integer. Magna ut tristique tellus placerat ultrices nullam volutpat, nunc, sem. Vitae morbi
+                        quisque elementum vel, adipiscing suspendisse amet, lectus et. Tempus, tincidunt tristique sed
+                        tristique. Sem dui tellus habitasse quisque integer morbi et vestibulum turpis.</p>
+                    <p class="price__text text-md">Habitant phasellus nunc ultrices diam pretium suspendisse dignissim.
+                        Aliquam eu, nec nulla suspendisse lectus interdum volutpat, velit. Suspendisse tristique aenean
+                        quis sapien. Nunc quis tellus sed id pulvinar nisl risus volutpat. Pretium volutpat eget amet
+                        ultrices nunc turpis.</p>
+                </div>
+                <div class="price__text-item">
+                    <p class="price__text title-1 price__text--border">
+                        Sagittis viverra mauris cras fusce ornare eget. Montes, arcu varius sapien, odio sit. Morbi sit
+                        ut fringilla sed viverra ac justo, magna mauris. Gravida purus mauris, mattis interdum justo
+                        metus pretium, aliquet. Amet dictumst augue nisi, mi auctor. Justo sed ultricies ac ac nullam
+                        phasellus ut amet. In suspendisse leo.
+                    </p>
+                </div>
+                <div class="price__text-item">
+                    <p class="price__text text-md">
+                        Eget in urna, sed aenean porta vitae at turpis tincidunt. Urna vestibulum volutpat condimentum
+                        eleifend vel. Lectus condimentum lorem id velit pellentesque.
+
+                    </p>
+                    <p class="price__text text-md">
+                        Enim porta sagittis, purus nulla libero convallis commodo sed et. Dolor ac id sagittis ut feugiat
+                        cras. Luctus nisi, neque quis at vitae. Parturient lacinia egestas leo, fringilla.</p>
+                </div>
+            </div>
+            <div class="price-logo__block">
+                <svg class="big-logo" width="60" height="60" viewBox="0 0 60 60" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M52.5037 5.50294C52.5037 5.00145 52.2237 4.46796 51.8237 4.20709C51.5333 4.01772 49.7667 4.0011 29.9897 4.0011C9.45805 4.0011 8.10852 3.95433 7.83806 4.47168C7.79648 4.5512 7.78041 4.64406 7.72408 4.75246C7.34838 5.47544 7.45754 5.78456 9.06568 8.5545C12.1593 13.8826 13.8168 16.7665 13.8168 16.8205C13.8168 16.851 10.9417 16.8758 7.42777 16.8758C1.13888 16.8758 1.03349 16.88 0.705284 17.1368C0.307361 17.4483 0 18.0017 0 18.4064C0 18.678 0.760173 20.0668 3.16479 24.1882C3.68619 25.0819 4.84541 27.0787 5.74087 28.6256C6.63632 30.1724 8.33164 33.0974 9.50832 35.1254C10.685 37.1535 13.0169 41.1753 14.6901 44.0628C16.3634 46.9502 17.9992 49.7626 18.3251 50.3126C18.651 50.8626 19.4701 52.2733 20.1451 53.4476C21.4696 55.7514 21.7083 56 22.5953 56C22.9809 56 23.1992 55.9149 23.4776 55.6563C23.6811 55.4671 24.9025 53.4844 26.1917 51.2501C29.7376 45.1051 29.9466 44.7502 30.0173 44.7506C30.0534 44.7509 30.3647 45.2431 30.7093 45.8443C34.2912 52.0957 36.2423 55.3701 36.5558 55.6563C36.8492 55.924 37.0564 56 37.4937 56C38.3106 56 38.6105 55.6608 40.1451 53.0001C41.6882 50.3246 43.0443 47.9845 47.6006 40.1342C49.4134 37.011 52.0559 32.4549 53.473 30.0094C54.8901 27.564 56.789 24.2975 57.6928 22.7507C60.1024 18.6263 60.1117 18.6067 59.9325 18.0113C59.8511 17.7407 59.6114 17.3744 59.4002 17.1976L59.0161 16.8758H52.6062C47.5297 16.8758 46.2092 16.8433 46.2574 16.7196C46.3163 16.5686 47.1387 15.1401 50.7862 8.85287C51.988 6.78129 52.5037 5.77531 52.5037 5.50294ZM20.6623 14.4761C19.9024 13.1597 19.1524 11.8392 18.9957 11.5417L18.7107 11.0009H30.0291H41.3476L40.9279 11.7324C40.6972 12.1348 39.943 13.4541 39.2522 14.6641L37.9961 16.8643L30.0201 16.8669L22.044 16.8697L20.6623 14.4761ZM12.0633 25.4381C11.7382 24.8882 11.4039 24.3107 11.3202 24.1549L11.168 23.8717L14.5767 23.9049L17.9854 23.9382L21.9356 30.7403C24.3814 34.9519 25.8573 37.6161 25.8111 37.736C25.7225 37.9656 22.7344 43.1404 22.6025 43.2926C22.5524 43.3504 22.203 42.8723 21.826 42.2302C20.6304 40.1942 17.951 35.5864 15.2597 30.938C13.8267 28.4631 12.3884 25.9881 12.0633 25.4381ZM30.0414 30.4232C29.9642 30.4692 26.4988 24.5943 26.3084 24.0944C26.2301 23.8891 26.4577 23.8757 30.0201 23.8757C33.2408 23.8757 33.8049 23.9024 33.7469 24.0525C33.7094 24.1499 33.0153 25.3733 32.2045 26.7712C31.3937 28.1692 30.5943 29.5516 30.4279 29.8432C30.2616 30.1347 30.0876 30.3957 30.0414 30.4232ZM38.6199 29.8131C40.328 26.8569 41.8061 24.3117 41.9047 24.1569C42.0834 23.8768 42.0973 23.8757 45.4232 23.8757C48.535 23.8757 48.7567 23.8904 48.6791 24.0915C48.6019 24.2918 47.6405 25.9654 44.2076 31.8755C43.4689 33.1474 41.6931 36.2129 40.2613 38.6879C38.8296 41.1628 37.6148 43.2335 37.5616 43.2895C37.4654 43.3909 34.1651 37.8608 34.1651 37.598C34.1651 37.5219 34.4687 36.9485 34.8397 36.3238C35.2108 35.6991 36.9119 32.7692 38.6199 29.8131Z"
+                        fill="#EC1B2E" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+		<footer class="footer">
+	<div class="container">
+		<div class="footer__row flex-between">
+			<div class="footer__contacts">
+				<div class="footer-contacts__block">
+					<h6 class="footer__contacts-title h6">ШКОЛА ИСПАНСКОГО ЯЗЫКА
+						«ЛАВИТА» В ПЕТЕРБУРГЕ</h6>
+					<ul class="footer__contacts-items">
+						<li class="footer__contacts-item text-sm">
+								<a class="footer__link" href="https://yandex.ru/maps/-/CCU7eSTtCB">
+									<svg class="location-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M12 21C10.7369 19.9226 9.56619 18.7415 8.5 17.469C6.9 15.558 5 12.712 5 9.99997C4.99931 8.61493 5.40951 7.26082 6.17869 6.109C6.94788 4.95718 8.04147 4.05943 9.32107 3.52937C10.6007 2.99931 12.0087 2.86076 13.3671 3.13126C14.7255 3.40176 15.9731 4.06915 16.952 5.04897C17.6038 5.69783 18.1203 6.46951 18.4719 7.31934C18.8234 8.16918 19.0029 9.0803 19 9.99997C19 12.712 17.1 15.558 15.5 17.469C14.4338 18.7415 13.2631 19.9226 12 21ZM12 6.99997C11.2044 6.99997 10.4413 7.31604 9.87868 7.87865C9.31607 8.44126 9 9.20432 9 9.99997C9 10.7956 9.31607 11.5587 9.87868 12.1213C10.4413 12.6839 11.2044 13 12 13C12.7957 13 13.5587 12.6839 14.1213 12.1213C14.6839 11.5587 15 10.7956 15 9.99997C15 9.20432 14.6839 8.44126 14.1213 7.87865C13.5587 7.31604 12.7957 6.99997 12 6.99997Z"
+											fill="#EC1B2E" />
+									</svg>Лиговский пр. 133 Е</a></li>
+						<li class="footer__contacts-item text-sm"><a class="footer__link" href="tel:+79111234567">
+								<svg class="phone-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M15.2477 16.11L16.9277 14.43C17.154 14.2066 17.4403 14.0536 17.7518 13.9897C18.0634 13.9258 18.3867 13.9537 18.6827 14.07L20.7302 14.8875C21.0293 15.0089 21.2858 15.2162 21.4673 15.4831C21.6488 15.75 21.7473 16.0647 21.7502 16.3875V20.1375C21.7485 20.3571 21.7023 20.5741 21.6145 20.7753C21.5267 20.9766 21.3991 21.158 21.2393 21.3087C21.0796 21.4594 20.891 21.5761 20.6849 21.652C20.4788 21.7278 20.2595 21.7612 20.0402 21.75C5.69272 20.8575 2.79772 8.70753 2.25022 4.05753C2.22481 3.82918 2.24803 3.59804 2.31836 3.37931C2.38869 3.16058 2.50453 2.95922 2.65827 2.78848C2.81201 2.61774 3.00016 2.48148 3.21034 2.38868C3.42052 2.29587 3.64797 2.24862 3.87772 2.25003H7.50022C7.82348 2.25099 8.13906 2.34863 8.40637 2.5304C8.67368 2.71217 8.8805 2.96976 9.00022 3.27003L9.81772 5.31753C9.93791 5.61233 9.96858 5.93601 9.90588 6.24814C9.84319 6.56027 9.68992 6.847 9.46522 7.07253L7.78522 8.75253C7.78522 8.75253 8.75272 15.3 15.2477 16.11Z"
+										fill="#EC1B2E" />
+								</svg>+7 (911)
+								123-45-67</a></li>
+						<li class="footer__contacts-item text-sm">
+							<a class="footer__link" href="mailto:lavita_school@gmail.com">
+								<svg class="email-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M6 4.5C5.20435 4.5 4.44129 4.81607 3.87868 5.37868C3.31607 5.94129 3 6.70435 3 7.5V7.8015L12 12.648L21 7.803V7.5C21 6.70435 20.6839 5.94129 20.1213 5.37868C19.5587 4.81607 18.7956 4.5 18 4.5H6ZM21 9.5055L12.3555 14.16C12.2462 14.2188 12.1241 14.2496 12 14.2496C11.8759 14.2496 11.7538 14.2188 11.6445 14.16L3 9.5055V16.5C3 17.2956 3.31607 18.0587 3.87868 18.6213C4.44129 19.1839 5.20435 19.5 6 19.5H18C18.7956 19.5 19.5587 19.1839 20.1213 18.6213C20.6839 18.0587 21 17.2956 21 16.5V9.5055Z"
+										fill="#EC1B2E" />
+								</svg>lavita_school@gmail.com</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="footer__socials-icons">
+					<li class="footer__social-icon"><a href="https://vk.com/"><svg class="vkontakte-icon" width="30" height="30"
+							viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_13054_481)">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M26.7031 18.4468C26.7031 18.4468 29.1286 20.8423 29.7286 21.9508C29.7403 21.9668 29.7494 21.9845 29.7556 22.0033C30.0001 22.4128 30.0601 22.7338 29.9401 22.9708C29.7376 23.3623 29.0521 23.5588 28.8196 23.5753H24.5326C24.2341 23.5753 23.6131 23.4973 22.8571 22.9753C22.2796 22.5718 21.7051 21.9073 21.1486 21.2578C20.3176 20.2933 19.5991 19.4563 18.8716 19.4563C18.7798 19.4561 18.6885 19.4713 18.6016 19.5013C18.0511 19.6753 17.3521 20.4598 17.3521 22.5493C17.3521 23.2033 16.8361 23.5753 16.4746 23.5753H14.5111C13.8421 23.5753 10.3591 23.3413 7.27064 20.0848C3.48614 16.0978 0.0871351 8.09982 0.0541351 8.02932C-0.157365 7.51182 0.286635 7.22982 0.766635 7.22982H5.09564C5.67614 7.22982 5.86514 7.58082 5.99714 7.89582C6.15014 8.25732 6.71714 9.70332 7.64714 11.3278C9.15314 13.9708 10.0786 15.0463 10.8181 15.0463C10.9571 15.0467 11.0937 15.0105 11.2141 14.9413C12.1801 14.4103 12.0001 10.9603 11.9551 10.2493C11.9551 10.1113 11.9536 8.70882 11.4586 8.03082C11.1046 7.54482 10.5016 7.35582 10.1371 7.28682C10.2346 7.14582 10.4416 6.92982 10.7071 6.80232C11.3686 6.47232 12.5641 6.42432 13.7506 6.42432H14.4091C15.6961 6.44232 16.0291 6.52482 16.4971 6.64332C17.4391 6.86832 17.4571 7.47882 17.3746 9.55782C17.3506 10.1518 17.3251 10.8208 17.3251 11.6083C17.3251 11.7763 17.3176 11.9638 17.3176 12.1543C17.2891 13.2208 17.2516 14.4223 18.0046 14.9158C18.1023 14.9767 18.2151 15.0089 18.3301 15.0088C18.5911 15.0088 19.3726 15.0088 21.4921 11.3713C22.4221 9.76482 23.1421 7.87032 23.1916 7.72782C23.2336 7.64832 23.3596 7.42482 23.5126 7.33482C23.6215 7.27691 23.7434 7.24798 23.8666 7.25082H28.9591C29.5141 7.25082 29.8906 7.33482 29.9641 7.54482C30.0871 7.88532 29.9401 8.92482 27.6151 12.0688C27.2236 12.5923 26.8801 13.0453 26.5786 13.4413C24.4711 16.2073 24.4711 16.3468 26.7031 18.4468Z"
+									fill="#333333" />
+							</g>
+							<defs>
+								<clipPath id="clip0_13054_481">
+									<rect width="30" height="30" fill="white" />
+								</clipPath>
+							</defs>
+						</svg></a>
+					</li>
+					<li class="footer__social-icon"><a href="https://youtube.com/"><svg class="youtube-icon" width="30" height="30" viewBox="0 0 30 30"
+							fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_13054_483)">
+								<path
+									d="M29.3748 8.1336C29.2049 7.52764 28.874 6.97903 28.4173 6.5461C27.9477 6.09986 27.372 5.78065 26.7448 5.6186C24.3973 4.99985 14.9923 4.99985 14.9923 4.99985C11.0715 4.95524 7.15158 5.15144 3.2548 5.58735C2.62753 5.76137 2.053 6.08771 1.58229 6.53735C1.11979 6.98235 0.784795 7.5311 0.609795 8.13235C0.189411 10.397 -0.0148401 12.6965 -0.000205083 14.9999C-0.0152051 17.3011 0.188545 19.5999 0.609795 21.8674C0.781045 22.4661 1.11479 23.0124 1.57854 23.4536C2.04229 23.8949 2.6198 24.2136 3.2548 24.3824C5.63354 24.9999 14.9923 24.9999 14.9923 24.9999C18.9181 25.0445 22.843 24.8483 26.7448 24.4124C27.372 24.2503 27.9477 23.9311 28.4173 23.4849C28.8739 23.052 29.2044 22.5033 29.3735 21.8974C29.8049 19.6335 30.0146 17.3331 29.9998 15.0286C30.0322 12.7144 29.8228 10.4031 29.3748 8.13235V8.1336ZM12.0023 19.2799V10.7211L19.8273 15.0011L12.0023 19.2799Z"
+									fill="#333333" />
+							</g>
+							<defs>
+								<clipPath id="clip0_13054_483">
+									<rect width="30" height="30" fill="white" />
+								</clipPath>
+							</defs>
+						</svg></a>
+					</li>
+					<li class="footer__contact-icon"><a href="https://telegram.org/"><svg class="telegram-icon" width="30" height="30"
+							viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M25.8312 4.64627L3.66875 13.1925C2.15625 13.8 2.165 14.6438 3.39125 15.02L9.08125 16.795L22.2462 8.48877C22.8687 8.11002 23.4375 8.31377 22.97 8.72877L12.3037 18.355H12.3012L12.3037 18.3563L11.9112 24.2213C12.4862 24.2213 12.74 23.9575 13.0625 23.6463L15.8262 20.9588L21.575 25.205C22.635 25.7888 23.3962 25.4888 23.66 24.2238L27.4337 6.43877C27.82 4.89002 26.8425 4.18877 25.8312 4.64627Z"
+								fill="#333333" />
+						</svg></a>
+					</li>
+					<li class="footer__contact-icon"><a href="https://www.wechat.com/"><svg class="wechat-icon" width="30" height="30" viewBox="0 0 30 30"
+							fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M20.955 27.0542C15.9581 27.0542 11.9062 23.6792 11.9062 19.5204C11.9062 15.3579 15.9544 11.9829 20.9513 11.9829C25.9481 11.9829 30 15.3579 30 19.5204C30 21.7892 28.7812 23.8348 26.8763 25.2129C26.7703 25.2882 26.6912 25.3954 26.6507 25.519C26.6102 25.6425 26.6104 25.7758 26.6513 25.8992L27.06 27.4179C27.0853 27.4891 27.1035 27.5626 27.1144 27.6373C27.1125 27.7172 27.0799 27.7934 27.0233 27.85C26.9667 27.9065 26.8906 27.9391 26.8106 27.941C26.749 27.9387 26.6893 27.9192 26.6381 27.8848L24.6562 26.741C24.5111 26.6538 24.3456 26.606 24.1763 26.6023C24.0861 26.6028 23.9964 26.616 23.91 26.6417C22.9493 26.9174 21.9545 27.0563 20.955 27.0542ZM16.995 17.891C17.1091 18.0661 17.2665 18.2088 17.4519 18.3052C17.6374 18.4016 17.8446 18.4485 18.0534 18.4412C18.2623 18.434 18.4658 18.3729 18.6441 18.2639C18.8224 18.155 18.9696 18.0017 19.0713 17.8192C19.173 17.6366 19.2258 17.4308 19.2246 17.2218C19.2233 17.0128 19.1682 16.8077 19.0644 16.6263C18.9605 16.4449 18.8116 16.2934 18.6321 16.1865C18.4525 16.0796 18.2483 16.0208 18.0394 16.016C17.8801 16.0158 17.7223 16.047 17.5751 16.1079C17.4279 16.1688 17.2942 16.2582 17.1817 16.3709C17.0691 16.4836 16.98 16.6175 16.9193 16.7648C16.8586 16.9121 16.8276 17.0699 16.8281 17.2292C16.8162 17.4618 16.8751 17.6925 16.9969 17.891H16.995ZM23.055 17.8929C23.1697 18.068 23.3278 18.2103 23.5138 18.3061C23.6999 18.4019 23.9076 18.4478 24.1167 18.4394C24.3259 18.431 24.5292 18.3686 24.707 18.2582C24.8848 18.1478 25.031 17.9933 25.1313 17.8096C25.2316 17.6259 25.2825 17.4194 25.2793 17.2101C25.276 17.0009 25.2185 16.796 25.1125 16.6156C25.0065 16.4351 24.8556 16.2852 24.6744 16.1805C24.4932 16.0758 24.288 16.0197 24.0788 16.0179C23.7587 16.0184 23.4518 16.1458 23.2255 16.3721C22.9991 16.5985 22.8717 16.9053 22.8713 17.2254C22.8641 17.4613 22.9281 17.6939 23.055 17.8929Z"
+								fill="#333333" />
+							<path
+								d="M0 12.7987C0 15.5269 1.46437 17.9831 3.75187 19.6538C3.87954 19.7435 3.97468 19.8723 4.02302 20.0207C4.07135 20.1691 4.0703 20.3291 4.02 20.4769L3.71813 21.6019L3.53063 22.3013C3.49807 22.3854 3.47786 22.4738 3.47062 22.5638C3.47038 22.6113 3.47957 22.6585 3.49766 22.7025C3.51576 22.7465 3.54241 22.7865 3.57606 22.8202C3.60971 22.8538 3.64971 22.8805 3.69372 22.8986C3.73774 22.9167 3.78491 22.9259 3.8325 22.9256C3.90562 22.9256 3.97687 22.9069 4.04063 22.8713L6.41813 21.4969C6.59292 21.3924 6.79202 21.3355 6.99563 21.3319C7.10437 21.3319 7.21312 21.3488 7.31625 21.3787C8.30851 21.6635 9.33156 21.8271 10.3631 21.8662C10.1415 21.1041 10.0298 20.3143 10.0312 19.5206C10.0312 14.0156 15.2531 10.1081 20.9513 10.1081C21.045 10.1081 21.1388 10.1081 21.2325 10.1119C19.8506 6.42938 15.735 3.75 10.8675 3.75C4.8675 3.75 0 7.8 0 12.7987ZM8.685 9.88312C8.685 10.266 8.53289 10.6333 8.26214 10.904C7.99138 11.1748 7.62416 11.3269 7.24125 11.3269C6.85834 11.3269 6.49112 11.1748 6.22036 10.904C5.94961 10.6333 5.7975 10.266 5.7975 9.88312C5.7975 9.50022 5.94961 9.133 6.22036 8.86224C6.49112 8.59148 6.85834 8.43937 7.24125 8.43937C7.62416 8.43937 7.99138 8.59148 8.26214 8.86224C8.53289 9.133 8.685 9.50022 8.685 9.88312ZM15.9506 9.88312C15.9506 10.266 15.7985 10.6333 15.5278 10.904C15.257 11.1748 14.8898 11.3269 14.5069 11.3269C14.124 11.3269 13.7567 11.1748 13.486 10.904C13.2152 10.6333 13.0631 10.266 13.0631 9.88312C13.0631 9.50022 13.2152 9.133 13.486 8.86224C13.7567 8.59148 14.124 8.43937 14.5069 8.43937C14.8898 8.43937 15.257 8.59148 15.5278 8.86224C15.7985 9.133 15.9506 9.50022 15.9506 9.88312Z"
+								fill="#333333" />
+						</svg></a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__about footer-column">
+				<h6 class="footer__about-title footer-title h6">О НАС</h6>
+				<ul class="footer__about-items">
+					<li class="footer__about-item text-sm footer-text--mb"><a href="#!" class="footer__link">Основные
+							сведения</a></li>
+					<li class="footer__about-item text-sm footer-text--mb"><a href="#!" class="footer__link">Структура и
+							органы
+							управления образовательной организацией</a></li>
+					<li class="footer__about-item text-sm footer-text--mb"><a href="#!"
+							class="footer__link">Документы</a></li>
+					<li class="footer__about-item text-sm footer-text--mb"><a href="#!"
+							class="footer__link">Образование</a></li>
+					<li class="footer__about-item text-sm footer-text--mb"><a href="#!"
+							class="footer__link">Образовательные
+							стандарты</a></li>
+					<li class="footer__about-item text-sm footer-text--mb"><a href="#!"
+							class="footer__link">Руководство. Педагогический
+							(научно-педагогический) состав</a></li>
+					<li class="footer__about-item text-sm footer-text--mb"><a href="#!"
+							class="footer__link">Материально-техническое
+							обеспечение и оснащенность образовательного процесса</a></li>
+					<li class="footer__about-item text-sm footer-text--mb"><a href="#!" class="footer__link">Доступная
+							среда</a></li>
+				</ul>
+			</div>
+			<div class="footer__shedule">
+				<div class="footer__payment footer-column">
+					<h6 class="footer__payment-title footer-title h6">РАСПИСАНИЕ И ОПЛАТА</h6>
+					<ul class="footer__payment-items">
+						<li class="footer__payment-item text-sm footer-text--mb"><a href="#!"
+								class="footer__link">Расписание
+								занятий</a></li>
+						<li class="footer__payment-item text-sm footer-text--mb"><a href="#!" class="footer__link">Курсы
+								и стоимость</a>
+						</li>
+						<li class="footer__payment-item text-sm footer-text--mb"><a href="#!"
+								class="footer__link">Расписание работы
+								кассы</a></li>
+					</ul>
+				</div>
+				<div class="footer__news footer-column">
+					<h6 class="footer__news-title footer-title h6">ОБУЧЕНИЕ В КИТАЕ</h6>
+					<ul class="footer__news-items">
+						<li class="footer__news-item text-sm footer-text--mb"><a href="#!"
+								class="footer__link">Стипендиальные
+								программы</a></li>
+						<li class="footer__news-item text-sm footer-text--mb"><a href="#!"
+								class="footer__link">Лингвистические
+								лагеря</a></li>
+						<li class="footer__news-item text-sm footer-text--mb"><a href="#!"
+								class="footer__link">Оформление визы на
+								обучение</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__exam footer-column">
+				<h6 class="footer__exam-title footer-title h6">ЭКЗАМЕНЫ</h6>
+				<ul class="footer__exam-items">
+					<li class="footer__exam-item text-sm footer-text--mb"><a href="#!" class="footer__link">MSK 1</a>
+					</li>
+					<li class="footer__exam-item text-sm footer-text--mb"><a href="#!" class="footer__link">OPT</a></li>
+					<li class="footer__exam-item text-sm footer-text--mb"><a href="#!" class="footer__link">YSV</a></li>
+					<li class="footer__exam-item text-sm footer-text--mb"><a href="#!" class="footer__link">NNB</a></li>
+					<li class="footer__exam-item text-sm footer-text--mb"><a href="#!" class="footer__link">Порядок
+							регистрации на
+							онлайн экзамен</a></li>
+					<li class="footer__exam-item text-sm footer-text--mb"><a href="#!" class="footer__link">Порядок регистрации на очный
+							экзамен</a></li>
+					<li class="footer__exam-item text-sm"><a href="#!" class="footer__link">Расписание экзаменов</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__school footer-column">
+				<h6 class="footer__school-title footer-title h6">ШКОЛА</h6>
+				<ul class="footer__school-items">
+					<li class="footer__school-item text-sm footer-text--mb"><a href="#!"
+							class="footer__link">Новости</a></li>
+					<li class="footer__school-item text-sm footer-text--mb"><a href="#!"
+							class="footer__link">Мероприятия</a></li>
+					<li class="footer__school-item text-sm footer-text--mb"><a href="#!"
+							class="footer__link">Фотогалерея</a></li>
+					<li class="footer__school-item text-sm footer-text--mb"><a href="#!"
+							class="footer__link">Контакты</a></li>
+					<li class="footer__school-item text-sm footer-text--mb"><a href="#!" class="footer__link">Отзывы</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<hr class="footer__hr hr" >
+		<p class="footer__year text-sm">© «ЛАВИТА» 2023</p>
+	</div>
+	</div>
+</footer>
+		<script src="./js/index.bundle.js"></script>		
+	</body>
+</html>

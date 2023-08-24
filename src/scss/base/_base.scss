@@ -1,0 +1,168 @@
+@font-face {
+		font-family: "Circle";
+		font-style: normal;
+		font-weight: 400;
+		src: local("Circle-Regular"),
+			 url("./../../fonts/Circe-Regular.woff2") format("woff2");
+}			 
+
+@font-face {
+		font-family: "Circle";
+		font-weight: 700;
+		src: local("Circle-Bold"),
+			 url("./../../fonts/Circe-Bold.woff2") format("woff2");
+}
+
+@font-face {
+		font-family: "Circle";
+		font-weight: 800;
+		src: local("Circle-ExtraBold"),
+			 url("./../../fonts/Circe-ExtraBold.woff2") format("woff2");
+}
+
+html, body {
+    min-height: 100vh;
+    // display: flex;
+    // flex-direction: column;	
+	overflow-x: hidden;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: $page-bg;
+	color: $text-color;
+    font-family: $font-main;
+}
+
+a {
+	cursor: pointer;
+}
+
+.wrapper {
+	width: 1076px;
+	margin: 0 auto;
+}
+
+//colors
+.accent {
+	color: $accent;
+}
+
+.white {
+	color: $white;
+}
+
+// .black {
+// 	color: $black;
+// }
+
+// .black-5 {
+// 	color: $black-5;
+// }
+
+// .black-20 {
+// 	color: $black-20;
+// }
+
+hr {
+    display: block;
+    // margin-top: 0.5em;
+    // margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+	opacity: 30%;
+} 
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.button {
+	display: block;
+	padding: 15px 30px;
+	background-color: $accent;
+    width: 169px;
+	text-align: center;
+	cursor: pointer !important;
+	&:hover {
+		transition: 0.5s;
+		background-color: $red;
+	}
+}
+
+.inner-button {
+	display: inline-block;
+	padding: 10px 20px;
+	text-align: center;
+	background-color: $accent;
+	cursor: pointer !important;
+	&:hover {
+		transition: 0.5s;
+		background-color: $red;
+	}
+}
+
+.big-logo {
+	display: flex;
+	width: 400px;
+	height: 400px;
+	padding: 26.667px 0px;
+	justify-content: center;
+	flex-shrink: 0;
+	opacity: 0.1;
+}
+
+.rectangle {
+	display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: $accent;
+}
+
+.path-title {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.path__link {
+    color: $black;
+}
+
+.path-link:hover {
+	transition: 0.5s;
+	color: $accent;
+}
+
+.disabled {
+	color: $black-50 !important;
+}

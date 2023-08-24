@@ -1,0 +1,31 @@
+.container {
+	padding: 0 $container-padding;
+	// max-width: 1480px;
+	max-width: 1540px;
+	// max-width: 1920px;
+	width: 1306px;
+	// width: 1440px;
+	margin: 0 auto;
+}
+
+.container-right {
+	/* overflow-x: hidden; */
+	// padding-left: calc(
+	// 	(100% - $container-width) / 2 + $container-padding
+	// );
+
+	// 	@media (max-width: $lg) {
+	// 	padding-left: $container-padding;
+	// }
+}
+
+.container-left {
+	/* overflow-x: hidden; */
+	// 	padding-right: calc(
+	// 		(100% - $container-width) / 2 + $container-padding
+	// 	);
+
+	// 	@media (max-width: $lg) {
+	// 		padding-right: $container-padding;
+	// 	}
+}

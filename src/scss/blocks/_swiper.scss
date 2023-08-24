@@ -1,0 +1,89 @@
+@import "../../../node_modules/swiper/swiper-bundle.css";
+
+.swiper {
+    width: 100vw;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                        supported by Chrome, Edge, Opera and Firefox */
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    display: none;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    display: none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    top: var(--swiper-navigation-top-offset, 50%);
+    width: calc(var(--swiper-navigation-size) / 25 * 132) !important;
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // color: $white !important;
+}
+
+// .swiper-button-prev:after, .swiper-button-next:after {
+//     font-family: unset;
+//     font-size: var(--swiper-navigation-size);
+//     text-transform: none !important;
+//     letter-spacing: 0;
+//     font-variant: initial;
+//     line-height: 1;
+//     padding: 10px 20px;
+//     background-color: $accent !important;
+// }
+
+.swiper-button-prev svg,
+.swiper-button-next svg {
+    width: 50px !important;
+    height: 50px !important;
+    // object-fit: contain;
+    transform-origin: center;
+    /* padding: 20px 20px; */
+    background-color: $accent;
+}
+
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper__block {
+    position: absolute;
+    content: "";
+    padding: 15px 30px;
+    width: 586px;
+    height: 310px;
+    top: 110px;
+    left: 350px;
+    background: rgba(51, 51, 51, 0.50);
+}
+
+.swiper__button {
+    position: absolute;
+    left: 0;
+    bottom: -100px;    
+}

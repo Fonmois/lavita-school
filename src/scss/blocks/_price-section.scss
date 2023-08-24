@@ -1,0 +1,62 @@
+.price {
+
+    &__img {
+        margin-bottom: 80px;
+    }
+
+    &-text__block {
+        width: 639px;
+    }
+
+    &__h1 {
+        margin-bottom: 40px;
+    }
+
+    &__h4 {
+        margin-bottom: 40px;
+
+    }
+
+    &__text {
+        margin-bottom: 16px;
+    }
+
+    &__text-item {
+        margin-bottom: 40px;
+
+        :last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__text--border {
+        text-align: center;
+        padding: 25px 45px;
+        border: 5px solid $accent;
+        word-break: break-all;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
+
+    &-logo__block {
+        align-self: flex-start;
+        margin-top: -26.667px;
+    }
+
+    &-first__section {
+        margin-bottom: 20px;
+    }
+
+    &-second__section {
+        margin-bottom: 80px;
+    }
+
+}
+
+.exam__buttons {
+    margin-bottom: 120px;
+}

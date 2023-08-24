@@ -1,0 +1,109 @@
+.footer {
+	padding-top: 60px;
+	font-size: 32px;
+	margin-top: auto;
+	padding-top: 60px;
+	padding-bottom: 25px;
+	// background-color: #e3e3e3;
+	background-color: $black-05;
+
+	&__row {
+		align-items: flex-start;
+		margin-bottom: 60px;
+	}
+
+	&-column {
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+		width: 200px;
+	}
+
+	&__contacts {
+		width: 221px;
+	}
+
+	&__contacts-title {
+		margin-bottom: 40px;
+	}
+
+	&__contacts-item {
+		margin-bottom: 24px;
+	}
+
+	&__socials-icons {
+		display: flex;
+		column-gap: 20px;
+	}
+
+	&-title {
+		column-gap: 25px;
+	}
+
+	&__link {
+		display: flex;
+		align-items: center;
+		column-gap: 20px;
+		color: $black;
+		margin-bottom: 15px;
+
+		&:hover {
+			transition: 0.5s;
+			color: $accent;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&-text--mb {
+		margin-bottom: 15px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&__payment {
+		margin-bottom: 40px;
+	}
+
+	// &__exam-item {}
+
+	&__contacts {
+		width: 221px;
+	}
+
+	&__contacts-title {
+		margin-bottom: 40px;
+	}
+
+	&__hr {
+		margin-bottom: 25px;
+	}
+
+	&__year {
+		color: $black-50;
+	}
+}
+
+.vkontakte-icon:hover path,
+.vkontakte-icon:focus path {
+	fill: $accent;
+}
+
+.youtube-icon:hover path,
+.youtube-icon:focus path {
+	fill: $accent;
+}
+
+.telegram-icon:hover path,
+.telegram-icon:focus path {
+	fill: $accent;
+}
+
+.wechat-icon:hover path,
+.wechat-icon:focus path {
+	fill: $accent;
+}

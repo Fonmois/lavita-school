@@ -1,0 +1,60 @@
+// Точки медиа запросов
+$sm: 390px;
+$md: 768px;
+$lg: 1080px;
+$xl: 1440px;
+$breakpoints: (
+    "sm": $sm,
+    "md": $md,
+    "lg": $lg,
+    "xl": $xl,
+) !default;
+
+// main text
+$font-main: 'Poppins', sans-serif;
+
+
+// Цвета
+$white: #FFFFFF;
+$black: #333;
+$yellow:#ffff00;
+$red: #ff0000;
+$accent: #EC1B2E;
+$black-05: #33333305;
+$black-5: #3333330d;
+$black-20: #33333320;
+$black-30: #33333330;
+$black-50: #33333380;
+
+// white bg
+$page-bg: #fff;
+$text-color: #000;
+
+// С прозрачностью
+$black-60: transparentize($black, .4);
+$black-10: transparentize($black, .9);
+$black-15: transparentize($black, .85);
+$white-60: transparentize($white, .4);
+$white-40: transparentize($white, .6);
+$white-30: transparentize($white, .7);
+
+// Градиенты
+$card-dark-gradient: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+$header-dark-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+$white-gradient: linear-gradient(90deg, rgba(255, 255, 255, 0.68) 72.27%, rgba(255, 255, 255, 0) 100%);
+$deep-ocean-gradient: linear-gradient(105.92deg, #004CE0 0%, #20063F 62.64%);
+$sunflower-gradient: linear-gradient(103.04deg, #E44C73 0%, #9739B7 49.76%, #311353 100%);
+$cianyde-black-gradient: linear-gradient(260.83deg, #7AE000 25.88%, rgba(122, 224, 0, 0) 71.99%);
+
+// Пути
+$font-path: '/fonts/';
+$img-path: "/images/";
+
+//Шрифты
+$font-main: "Circle", sans-serif;  
+$base-font-size: 16px;
+
+// Размер контейнера
+// $container-max-width: 1440px;
+$container-width: 1304px;
+$container-padding: 16px;

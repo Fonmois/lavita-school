@@ -1,0 +1,113 @@
+.header {
+	// background-color: rgb(195, 220, 231);
+	padding: 20px 0;
+
+	&__adress-items {
+		color: $black;
+		column-gap: 45px;
+	}
+
+	&__link {
+		column-gap: 20px;
+		color: $black;
+
+		&:hover {
+			transition: 0.5s;
+			color: $accent;
+		}
+	}
+
+
+
+	&__nav-items {
+		column-gap: 20px;
+	}
+
+	&__hr {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+.header__button {
+	padding: 10px 20px;
+	background-color: $accent;
+	flex-shrink: 0;
+	cursor: pointer;
+}
+
+.modal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 99998;
+	background-color: $black-50;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	overflow-y: auto;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .4s, visibility .4s;
+}
+
+.modal__box {
+	position: relative;
+	// max-width: 500px;
+	padding: 45px;
+	z-index: 1;
+	background-color: $white;
+	margin: 30px 15px;
+	box-shadow: 0 0 17px -7px rgba(34, 60, 80, 0.2);
+	transform: scale(0);
+	transition: transform .8ps;
+	//modal bg-color
+	// background-color: #333;
+	// color: #fff;
+
+}
+
+.modal__close-btn {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	border: none;
+	background-color: transparent;
+	padding: 0 !important;
+	cursor: pointer;
+}
+
+.modal__close-btn svg path {
+	transition: fill .4s;
+}
+
+.modal__close-btn:hover svg path {
+	stroke: $accent;
+}
+
+// .modal__close-btn:active {
+// 	stroke: $yellow;
+// }
+
+.modal.open {
+	visibility: visible;
+	opacity: 1;
+}
+
+.modal.open .modal__box {
+	transform: scale(1);
+}
+
+.yellow {
+	color: rgb(231, 231, 0);
+}
+
+.lesson {
+	padding: 20px 0px 0px 0px;
+}
+
+.lesson._focus {
+	outline: 2px dotted rgb(231, 231, 0);
+}

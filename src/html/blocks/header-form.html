@@ -1,0 +1,71 @@
+<div class="form">
+    <form id="form" class="form__body">
+        <h3 class="form__title h3"></h3>
+        <div class="form__wrapper">
+            <div class="form__block flex-column">
+                <div class="form__item">
+                    <label class="form__label text-lg" for="formName">Имя*:</label>
+                    <input id="formName" type="text" name="name" class="form__input text-lg _req">
+                </div>
+                <div class="form__item">
+                    <label for="formEmail" class="form__label text-lg">E-mail*:</label>
+                    <input id="formEmail" type="text" name="email" class="form__input text-lg _req _email">
+                </div>
+                <div class="form__item">
+                    <div class="form__label text-lg">Выберите пол:</div>
+                    <div class="options flex">
+                        <div class="options__item">
+                            <input id="formRightHanded" checked type="radio" value="right" name="hand"
+                                class="options__input">
+                            <label for="formRightHanded" class="options__label text-md">Мужчина</label>
+                        </div>
+                        <div class="options__item">
+                            <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input">
+                            <label for="formLeftHanded" class="options__label text-md">Женшина</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__item">
+                    <div class="form__label text-lg">Курсы:</div>
+                    <select name="age" id="select-one" class="select-one text-md">
+                        <option value="0" disabled selected hidden>Выберите курс:
+                        <option value="ESP for children">Испанский язык для детей
+                        <option value="ESP">Испанский язык для взрослых
+                        <option value="Exam preparation">Подготовка к экзаменам
+                        <option value="Individual">Индивидуальные занятия
+                    </select>
+                </div>
+            </div>
+
+            <div class="form__block flex-column">
+
+                <div class="form__item">
+                    <label for="formMessage" class="form__label text-lg form__label--mb">Сообщение:</label>
+                    <textarea name="message" id="formMessage" class="form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <div class="form__label text-lg">Прикрепить фото</div>
+                    <div class="file">
+                        <div class="file__item">
+                            <input id="formImage" accept=".jpg, .png, .gif" type="file" name="image"
+                                class="file__input">
+                            <div class="file__button h6">Выбрать</div>
+                        </div>
+                        <div id="formPreview" class="file__preview"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form__item">
+            <div class="checkbox">
+                <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req">
+                <label for="formAgreement" class="checkbox__label text-lg"><span>Я даю свое согласие на обработку
+                        персональных данных в
+                        соответствии с <a href="">Условиями</a>*</span></label>
+            </div>
+        </div>
+        <button type="submit" class="form__button text-lg">Отправить</button>
+        <!-- onsubmit="return false" -->
+        <!-- <button type="button" class="form__button text-lg">Отправить</button> -->
+    </form>
+</div>

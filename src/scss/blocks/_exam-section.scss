@@ -1,0 +1,62 @@
+.exam {
+
+    &__img {
+        margin-bottom: 80px;
+    }
+
+    &__h1 {
+        margin-bottom: 67px;
+        text-align: center;
+
+    }
+
+    &__h4 {
+        margin-bottom: 40px;
+    }
+
+    &__section {
+        margin: 0 auto;
+        width: 693px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__text {
+        margin-bottom: 16px;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+
+    &__item {
+        margin-bottom: 60px;
+    }
+
+    &__list-text {
+        margin-left: 23px;
+    }
+
+    &__list-item {
+        margin-bottom: 16px;
+        position: relative;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 8px;
+            width: 8px;
+            background-color: $accent;
+            top: 6px;
+        }
+    }
+
+    &__list--pd {
+        padding-top: 24px;
+        padding-bottom: 40px;
+    }
+}

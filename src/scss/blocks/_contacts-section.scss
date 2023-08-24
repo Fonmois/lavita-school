@@ -1,0 +1,145 @@
+.path-title {
+    color: $black;
+}
+
+.map {
+    width: 1270px;
+    height: 500px;
+    // background-color: #333;
+    margin-bottom: 60px;
+
+}
+
+
+
+.contacts {
+
+    font-size: 32px;
+    margin-top: auto;
+
+    &__row {
+        align-items: flex-start;
+        margin-bottom: 60px;
+    }
+
+    &-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__shedule {
+        width: 306px;
+    }
+
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    &__item {
+        margin-bottom: 24px;
+    }
+
+    &__phone-link {
+        // display: flex;
+        // align-items: center;
+        column-gap: 20px;
+        color: black;
+        margin-bottom: 15px;
+
+        &:hover {
+            transition: 0.5s;
+            color: $accent;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__phone-item {
+        margin-bottom: 16px;
+    }
+
+    &__mail-items {
+        margin-bottom: 25px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__director-item {
+        margin-bottom: 16px;
+        position: relative;
+
+        &:first-child {
+            position: static;
+        }
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 8px;
+            width: 8px;
+            background-color: $accent;
+            top: 6px;
+        }
+
+        &:first-child::before {
+            display: none;
+        }
+    }
+
+    &__mail-items__list {
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__mail-link {
+        color: $accent;
+    }
+
+    &__mail-text {
+        margin-bottom: 10px;
+    }
+
+    &__director-text {
+        margin-left: 23px;
+    }
+
+    &-text--mb {
+        margin-bottom: 16px;
+    }
+
+    &__location-icon {
+        position: absolute;
+        left: -30px;
+        top: -3px;
+    }
+}
+
+.location__link {
+    display: block;
+    color: $black;
+    position: relative;
+    margin-left: 23px;
+    &:hover {
+        transition: 0.5s;
+        color: $accent;
+    }
+}
+
+.ymaps-2-1-79-balloon__close+.ymaps-2-1-79-balloon__content {
+    margin-right: 30px;
+    padding-right: 0;
+    padding: 30px;
+    max-height: 150px;
+    max-width: 340px;
+}
