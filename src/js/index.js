@@ -31,7 +31,8 @@ function init() {
     
   }, {
     iconLayout: "default#image",
-    iconImageHref: "./../img/school.png", // Ссылка на изображение 
+    // iconImageHref: "./../img/school.png", // Ссылка на изображение 
+    iconImageHref: "school.png", // Ссылка на изображение 
     iconImageSize: [48, 48], // Размер изображения 
     iconImageOffset: [-3, -42] // Положение изображения   
 
