@@ -4,7 +4,7 @@
 		font-weight: 400;
 		src: local("Circle-Regular"),
 			//  url("./../.../fonts/Circe-Regular.woff2") format("woff2");
-			url("./fonts/Circe-Regular.woff2") format("woff2");
+			url("/fonts/Circe-Regular.woff2") format("woff2");
 }			 
 
 @font-face {
@@ -12,7 +12,7 @@
 		font-weight: 700;
 		src: local("Circle-Bold"),
 			//  url("./../.../fonts/Circe-Bold.woff2") format("woff2");
-		  url("./fonts/Circe-Bold.woff2") format("woff2");
+		  url("/fonts/Circe-Bold.woff2") format("woff2");
 }
 
 @font-face {
@@ -20,7 +20,7 @@
 		font-weight: 800;
 		src: local("Circle-ExtraBold"),
 			//  url("./../.../fonts/Circe-ExtraBold.woff2") format("woff2");
-		url("./fonts/Circe-ExtraBold.woff2") format("woff2");
+		url("/fonts/Circe-ExtraBold.woff2") format("woff2");
 }
 
 html, body {
